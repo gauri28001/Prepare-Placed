@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Prepare&amp;Placed</string>
+
+    <string name="course_name">Course_name</string>
+    <string name="course_rating">course_rating</string>
+    <string name="dsa_busted_by_love_babbar">DSA Busted by Love Babbar</string>
+    <string name="computer_network_by_gate_smasher">Computer Network by Gate Smasher</string>
+    <string name="computer_network_by_ravindrababu_ravula">Computer Network by Ravindrababu Ravula</string>
+    <string name="computer_network_by_neso_academy">Computer Network by Neso Academy</string>
+    <string name="java_programming_by_ravindrababu_ravula">Java Programming by Ravindrababu Ravula</string>
+    <string name="java_by_saurabh_shukla_sir">Java by Saurabh Shukla Sir</string>
+    <string name="c_tutorials_by_apna_college">C++ Tutorials by Apna College</string>
+    <string name="dbms_by_gate_smasher">DBMS by Gate Smasher</string>
+    <string name="operating_system_by_gate_smasher">Operating System by Gate Smasher</string>
+    <string name="operating_system_by_ravindrababu_ravula">Operating System by Ravindrababu Ravula</string>
+    <string name="account_info">ACCOUNT INFO</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">password</string>
+    <string name="rushikesh_kapadi">Rushikesh Kapadi</string>
+    <string name="rushi">rushi@16</string>
+    <string name="update_profile">UPDATE PROFILE</string>
+    <string name="username">rushi 23022000</string>
+
+
+</resources>

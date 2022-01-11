@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@drawable/action_bar_bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:fontFamily="@font/belleza"
+        android:paddingLeft="15dp"
+        android:text="Already \nhave an \nAccount?"
+        android:textColor="#0B0A0A"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        
+        // username
+        
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username_text_field_design"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Username">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arya_bold"
+
+                android:inputType="text" />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        
+        
+        //password
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_input_field"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/black"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arya_bold"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="470dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/belleza"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5B3B95"
+        app:cornerRadius="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/belleza"
+        android:text="----OR----"
+        android:textColor="#090909"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/REGISTER"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="560dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/belleza"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#5B3B95"
+        app:cornerRadius="40dp" />
+
+
+</RelativeLayout>

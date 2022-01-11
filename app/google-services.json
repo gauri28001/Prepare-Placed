@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "706681526753",
+    "firebase_url": "https://prepareandplaced-default-rtdb.firebaseio.com",
+    "project_id": "prepareandplaced",
+    "storage_bucket": "prepareandplaced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706681526753:android:c8e6e3485119bcab2a9aa0",
+        "android_client_info": {
+          "package_name": "com.appdevelopers3a.prepareplaced"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706681526753-btrvmvhtleo1ihd3vc3gh7flkle02q27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMXsIiPsFQ-eMaXDU5FR6MKrHn1Hzjiqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706681526753-btrvmvhtleo1ihd3vc3gh7flkle02q27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

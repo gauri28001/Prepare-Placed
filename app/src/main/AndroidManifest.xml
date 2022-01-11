@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appdevelopers3a.prepareplaced">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PreparePlaced">
+        <activity
+            android:name=".os_courses"
+            android:exported="false" />
+        <activity
+            android:name=".dbms_courses"
+            android:exported="false" />
+        <activity
+            android:name=".dsa_courses"
+            android:exported="false" />
+        <activity
+            android:name=".java_courses"
+            android:exported="false" />
+        <activity
+            android:name=".cpp_courses"
+            android:exported="false" />
+        <activity
+            android:name=".cn_courses"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".onboarding"
+            android:exported="true" />
+        <activity
+            android:name=".WebView"
+            android:exported="false" />
+        <activity
+            android:name=".Job"
+            android:exported="false" />
+        <activity
+            android:name=".Prepare"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

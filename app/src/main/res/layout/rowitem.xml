@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    app:cardCornerRadius="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/layout_id">
+
+
+        <ImageView
+            android:id="@+id/courseImg"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/accenture" />
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toRightOf="@+id/courseImg"
+            android:text="Course Name"
+            android:fontFamily="@font/arya_bold"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:fontFamily="@font/arya_bold"
+            android:layout_below="@+id/courseName"
+            android:layout_toRightOf="@+id/courseImg"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/courseDesc"
+            />
+
+        <Button
+            android:id="@+id/viewMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/arya_bold"
+            android:text="Apply Now"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/purple_700" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
